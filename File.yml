@@ -1,6 +1,6 @@
 ---
 - name: Reboot Node1
-  hosts: all
+  hosts: node1
   tasks:
     - name: Reboot Node1
       command: /sbin/reboot
