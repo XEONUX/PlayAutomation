@@ -1,6 +1,6 @@
 ---
-- name: Reboot Node1
-  hosts: node1
+- name: Date
+  hosts: all
   tasks:
-    - name: Reboot Node1
-      command: /sbin/reboot
+    - name: Date
+      command: /bin/date
