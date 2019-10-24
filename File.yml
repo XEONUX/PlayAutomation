@@ -1,6 +1,6 @@
----
-- name: Create
-  hosts: all
+- hosts: all
   tasks:
-    - name: Create
-      command: /bin/mkdir /home/hello
+  - name: Ansible create file
+    file:
+      path: "/home/devops_server.txt"
+      state: touch
