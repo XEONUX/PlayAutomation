@@ -1,6 +1,6 @@
 ---
-- name: Date
+- name: Create
   hosts: all
   tasks:
-    - name: Date
-      command: /bin/date
+    - name: Create
+      command: /bin/mkdir /home/hello
